@@ -4,4 +4,4 @@ This website is hosted by Heroko, created to be a business card for man’s fash
 
 <img src="[/repository/assets/employee.png](https://github.com/saar1221/manFashion/blob/master/New%20folder/Capture.PNG)" alt="Employee data" title="Employee Data title">
 
-![alt text]([https://github.com/saar1221/manFashion/blob/master/New%20folder/Capture.PNG])
+![plot](./New%20folder/Capture.PNG)

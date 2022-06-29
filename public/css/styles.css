@@ -1,0 +1,488 @@
+
+
+
+/* fonts import / text  need to delete the outer fonts i didnt use in folder public fonts */
+
+@font-face {
+  font-family: "Aquire";
+  src: url(../fonts/Aquire-BW0ox.otf);
+}
+
+
+@font-face {
+  font-family: "Nathanos";
+  src: url(../fonts/Nathanos-Yzld8.otf);
+}
+
+
+@font-face {
+  font-family: "AquireLight";
+  src: url(../fonts/AquireLight-YzE0o.otf);
+}
+/*  drop down icon */
+.arrow{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #4d4d4d;
+    border-right: 5px solid #4d4d4d;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+/* css  */
+body{
+  font-family: "Montserrat";
+  text-align: center;
+    /* background-color:#232020; */
+    /* background: linear-gradient(0.25turn, #393E46, #eee , #393E46); */
+}
+
+h3 ,h2{
+    font-family:"Montserrat-buld",sans-serif;
+    font-size: 3.5rem;
+      line-height: 1.5;
+    margin: 1%;
+}
+h5{
+    letter-spacing: 1.5px;
+color: #fff;
+}
+
+p{
+      font-size: 1.3rem;
+    line-height: 2;
+  color: #4d4d4d;
+
+}
+
+/* this hover is for jquery */
+.hover{
+  background-color:#324324;
+}
+
+
+#title{
+  color: #232020;
+text-align: left;
+
+}
+.big-heading{
+
+  font-family: Nathanos;
+text-align: center;
+  font-size: 6.5rem;
+  line-height: 1.1;
+  color: #ffff;
+  padding-top: 20%;
+}
+
+
+.container-nav-and-bg{
+  padding: 1% 10% 25%;
+  margin-left : -12px;
+  margin-right : -12px;
+   position: relative;
+  background: url("../images/yahi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 1000px;
+}
+
+.container-nav-and-bg-gallery{
+    padding: 1% 10% 0%;
+}
+
+.card-img-avizarim {
+  border-radius: 5px;
+  border: 1px solid ;
+  border-radius: .25rem;
+  margin-bottom:1%;
+/* max-width: 50%;
+max-height:50%; */
+}
+
+
+
+.card-img-avizarim img{
+  max-height: 280px;
+  min-height: 279px;
+}
+/* .img-show{
+
+  background-color: #ffff;
+  padding: 1%;
+} */
+.btn-collection{
+  margin-top:2%;
+}
+
+.btn{
+  background-color: #393E46;
+  color: #fff;
+}
+
+
+
+
+/*navingation bar*/
+
+.navbar{
+  text-align: center;
+  padding: 0;
+  margin-bottom: 1%;
+    border-radius: 0.25rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+
+
+}
+.navbar2{
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+
+}
+
+.navbar-brand{
+  font-family: "Aquire";
+padding:  1%;
+  /* font-family:"Montserrat-light"; */
+  font-size: 2.3rem;
+  /* font-weight: bold; */
+}
+
+.nav-item{
+  padding: 0 15px 0;
+}
+.nav-item-icon{
+  padding: 0 2px;
+}
+
+@media (max-width: 450px) {
+  .nav-link:hover{
+    color: #fff;
+    background-color: rgba(255,255,255,.15);
+}
+
+}
+.nav-item-icon:hover{
+
+  border-style: solid;
+  border-width: 2px;
+border-radius: 10px;
+border-color: #fff;
+}
+.navbar-icon-rotate{
+  position: static;
+  transform: rotate(-45deg);
+}
+
+.nav-link{
+  font-size: 1.3rem;
+  font-family:sans-serif;
+
+}
+
+
+/* features sector */
+.features{
+  position: relative;
+padding-top:3%;
+padding-bottom: 3%;
+/* background-color: #ffff; */
+
+}
+
+/* .row-features{
+   margin-bottom: 5%;
+  margin-top: 5%;
+} */
+
+ .card-halifa{
+  border: 1px solid #393E46;
+  border-radius: .25rem;
+  margin-right: 10%;
+  max-height: 480px;
+}
+.card-halifa-business{
+ border: 1px solid #393E46;
+ border-radius: .25rem;
+ margin-left: 10%;
+ max-height: 480px;
+}
+.card-header{
+  background-color: #393E46;
+    color: #fff;
+}
+/* .card-header-catalog{
+  color:#000;
+} */
+/* .card-body{
+
+    color: #232020;
+} */
+
+.card-body img{
+  /* max-width: 20%;
+  max-height: 20% */
+}
+
+.boxes-Features{
+  position: relative;
+
+  /* width: 85%; */
+ /* border-style: solid; */
+/* border-width: 4px;
+border-color: #000; */
+/* padding:1%; */
+ }
+.icon{
+  color: blue;
+}
+.icon:hover{
+  color: black;
+}
+
+/* testimonials */
+.card-img{
+
+  /* border-radius: 5px; */
+  border: 1px solid #393E46;
+  /* border-radius: .25rem; */
+/* height:  auto; */
+/* max-height: 1000px; */
+  /* background-color: #fff; */
+}
+
+
+
+
+#testimonials{
+
+
+  /* background-color: #000   ; */
+  color: #fff;
+
+}
+ .carousel-control-icon {
+
+       color: #232020;
+
+}
+
+
+.hr-medal-right{
+  border: dotted;
+  border-color: #fff;
+  border-bottom: none;
+   border-width: 5px;
+  width: 100%;
+
+
+}
+
+.testimonial-img{
+width: 1000px;
+height: 450px;
+  border: 1px solid #393E46;
+ border-radius: 4px;
+margin: 1%;
+ padding: 1%;
+
+}
+
+
+
+/* company we work with */
+
+.company-we-work-with{
+background-color: #393E46;
+color: #fff;
+padding: 2% 2%;
+
+  /* padding-bottom: 3%; */
+}
+.press-logo{
+position:relative;
+  /* width: 50%; */
+padding-top:15%;
+right: 6%;
+  /* height: 50%; */
+
+
+}
+
+.press-logo img{
+  position: absolute;
+  max-height:250px;
+    max-width: 250px;
+padding:  20px 20px 50px;
+    bottom: 0;
+}
+
+ /* Catalog section winter summer and accessories */
+
+#catalog-W-S{
+
+/* margin-top: 2%; */
+  /* padding-top: 5%; */
+    /* margin-bottom: 6%; */
+padding-left: 2%;
+padding-right: 2%;
+margin-bottom: 3%;
+max-width: 100%;
+max-height: 90%;
+/* padding-top: 2%; */
+/* background: linear-gradient(to top, #393E46 0%, #fff 8%, #fff 92%, #393E46 100%); */
+    /* background-color: #fff; */
+}
+
+.img-size img{
+  width: 250px;
+  height: 250px;
+}
+#catalog-W-S h3{
+  font-family: AquireLight;
+text-align: center;
+  /* font-size: 6.5rem; */
+  line-height: 1.1;
+  color: #000;
+}
+.catlog-headline{
+margin: 5%;
+}
+
+.relative{
+  position: relative;
+}
+
+.bottom-avizarin-left{
+  position:absolute;
+    bottom:35%;
+left: 0;
+
+}
+.bottom-avizarin-right{
+  position:absolute;
+    bottom: 35%;
+    right: 0;
+}
+
+.catlog-headline h1{
+  font-family: sans-serif;
+  font-size: 3.5rem;
+}
+.catlog-headline p{
+  font-size: 1.5rem;
+}
+
+
+
+.center{
+  position:absolute;
+    bottom: 0;
+    right: 50%;
+}
+
+/* contact section */
+#contact{
+  align-items: center;
+  background-color: #393E46;
+  text-align: center;
+  color: #fff;
+  padding: 5% 7% 5% 13%;
+
+
+}
+
+/* form contact section*/
+.text-contact-form{
+  margin: 1%;
+}
+
+/* gallery section */
+
+#gallery{
+/* background: linear-gradient(0.25turn, #393E46, #ffff, #393E46); */
+    /* background-image:  -webkit-linear-gradient(130deg, #393E46 0%, #ffff 100%); */
+  color: black;
+}
+
+.img-gallery{
+padding: 3% 3% 0% 3%;
+}
+
+.img-gallery img{
+max-height: 450px;
+}
+
+.img-zoom img{
+  border-radius: 0.25rem;
+border-style: solid;
+border-width: 1px;
+border-color: #fff;
+    transition: 1.5s;
+width: auto;
+
+}
+
+.img-zoom img:hover{
+transform:scale(1.2);
+}
+
+
+.social-icon{
+  margin: 20px 10px;
+  color: #393E46;
+}
+
+@media (max-width: 576px) {
+
+  .big-heading{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+}
+
+@media (min-width: 1000px) {
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+text-align: center;
+  }
+body{
+
+}
+}
